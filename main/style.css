@@ -1,0 +1,16 @@
+body{
+	background-color:#e3e3e0;
+	margin:0px;
+	display:flex;
+	overflow:hidden;
+}
+
+.back img{
+	/*background-size: cover;*/
+	
+	position: absolute;
+    width: auto;
+    height: 100vh;
+    left:15%;
+
+}

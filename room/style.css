@@ -1,0 +1,54 @@
+
+body{
+	/*background-color:#e3e3e0;*/
+	margin:0px;
+}
+
+.back img{
+	background-size: cover;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+}
+
+.room img{
+	position: absolute;
+	width: auto;
+	height: 90%;
+	bottom: 0px;
+	left: 23vw;
+}
+
+.fan img{
+	position: absolute;
+	width: auto;
+	height: 15%;
+	top: 35%;
+	left: 35%;
+}
+
+.tea img{
+	position: absolute;
+	width: auto;
+	height: 12%;
+	top: 52%;
+	left: 31%;
+}
+
+.book img{
+	position: absolute;
+	width: auto;
+	height: 2%;
+	top: 61%;
+	left: 43%;
+
+}
+.flower img{
+	position:absolute;
+	bottom:13%;
+	left:5%;
+	width: 10vw;
+	height: auto;
+	margin-left:0px;
+}

@@ -1,0 +1,58 @@
+body{
+	background-color:#8193A1;
+	margin:0px;
+	display:flex;
+	overflow:hidden;
+}
+
+.back img{
+	background-size: cover;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+}
+
+.cups img{
+	position: absolute;
+	left: 5vw;
+	bottom: 0vh;
+	width: 90%;
+	height: auto;
+	display: block;
+}
+
+.teapot img{
+	position: absolute;
+	left: 10%;
+	bottom: 33%;
+	width: 40vw;
+	height: auto;
+	display: block;
+	cursor: pointer;
+}
+
+.cupfirst img{
+	position: absolute;
+	left: 50%;
+	bottom: 33%;
+	width: 40vw;
+	height: auto;
+	display: block;
+	cursor: cell;
+	z-index: 1;
+}
+
+#cursor{
+	position:absolute;
+	z-index: 1;
+}
+
+.flower {
+	position:absolute;
+	bottom:80%;
+	right:5%;
+	width: 10vw;
+	height: auto;
+	margin-left:0px;
+}
